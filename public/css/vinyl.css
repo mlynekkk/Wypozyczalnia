@@ -1,0 +1,72 @@
+.back{
+    display:flex;
+    flood-color: black;
+}
+
+.back h1{
+    font-size: xx-large;
+    text-decoration: none;
+    color: black;
+}
+
+.back>a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.plyta{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.img{
+    border: 20px solid #033c00;
+    display: flex;
+    width: 80%;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.img img{
+    width: 100%;
+    min-width: 400px;
+    min-height: 400px;
+}
+
+.name{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.opis{
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.flex2{
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px;
+    max-height: 30px;
+    align-items: center;
+}
+
+.flex{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cena{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+input[type="submit"] {
+    background-color: #033c00;
+    color: white;
+    font-size: 20px;
+    padding: 10px 40px;
+}

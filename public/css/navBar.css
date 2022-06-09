@@ -1,0 +1,128 @@
+@import "../main.css";
+
+h1{
+  font-size: 70px;
+  line-height: 80px;
+}
+
+.header {
+  height: 65px;
+  max-height: 65px;
+  padding: 0 50px;
+  align-items: center;
+  display: flex;
+  position: sticky;
+  justify-content: space-between;
+  top: 0;
+  background-color: #033c00;
+  z-index: 10;
+}
+
+.right {
+  align-items: center;
+}
+
+.logo {
+  margin: 0 auto;
+  white-space: nowrap;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+strong{
+  color: aliceblue;
+}
+
+.header a {
+ 
+  color:white;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+  float: center;
+}
+
+.header span {
+  display: block;
+  color: var(--primary);
+  text-align: center;
+  padding: 10px 12px;
+  cursor: pointer;
+  float: left;
+}
+
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #033c00; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: var(--secondary);
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left 0.5s;
+  padding: 20px;
+}
+
+.logo-small {
+  display: none;
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .logo {
+    display: none;
+  }
+  .logo-small {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  .logo {
+    display: block;
+  }
+  .logo-small {
+    display: none;
+  }
+}

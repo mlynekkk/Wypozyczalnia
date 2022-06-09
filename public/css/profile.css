@@ -1,0 +1,28 @@
+.back{
+    display:flex;
+    flood-color: black;
+}
+
+.back h1{
+    font-size: xx-large;
+    text-decoration: none;
+    color: black;
+}
+
+.back>a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul{
+    margin: 50px;
+    list-style: none;
+}
+ul li{
+    padding: 15px;
+    font-size: x-large;
+}
+ul li a:hover{
+    font-weight:bold;
+    font-size: 25px;
+}

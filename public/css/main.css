@@ -1,0 +1,13 @@
+
+
+input [type=submit] {
+    background-color: #033c00;
+    color: white;
+    font-size: 20px;
+    padding: 10px 40px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
